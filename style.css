@@ -6,7 +6,7 @@
 
 .header {
     display:flex;
-    background: rgb(25, 70, 155);
+    background: rgb(12, 19, 109);
     justify-content:space-between;
     align-items:center;
     padding: 10px 20px;
@@ -17,7 +17,7 @@
 .right {
     display:flex;
     list-style:none;
-    gap:10px;
+    gap:20px;
     font-weight:bold;
     color:white;
     padding: 0 20px;
@@ -33,7 +33,7 @@
 }
 
 .box1 {
-    background: rgb(25, 70, 155);
+    background:  rgb(12, 19, 109);
     display:flex;
     flex-direction:column;
     align-items: space-between;
@@ -105,7 +105,7 @@
 
 .infobox {
     border-radius: 8px;
-    border: solid brown;
+    border: solid rgb(62, 112, 250);
     max-width:100px;
     height:100px;
 }
@@ -115,4 +115,60 @@
     font-size:14px;
     text-align:center;
     
+}
+
+.box3 {
+    background: rgb(180, 181, 223);
+    font-size:20px;
+    padding:50px 200px;
+    
+}
+.fyodor {
+    font-size:20px;
+    padding:20px;
+    text-align:right;
+    font-weight:bold;
+}
+
+.box4 {
+    padding: 50px 124px;
+    
+}
+
+.modalcontainer {
+    display:flex;
+    background:rgb(62, 112, 250);
+    padding:24px 64px;
+    color:white;
+    border-radius:9px;
+    justify-content:center;
+    gap:50px;
+}
+.modalheader {
+    font-size: 24px;
+}
+
+.modalleft {
+    display:flex;
+    flex-direction:column;
+}
+
+.button2 {
+    display:inline-flex;
+    padding: 2px 12px;
+    border-radius: 8px;
+    background:rgb(105, 127, 199);
+    color:white;
+    font-size:15px;
+}
+.buttoncontainer2 {
+    display:flex;
+    padding:24px 48px;
+}
+
+.footer {
+    background: rgb(12, 19, 109);
+    color:white;
+    text-align:center;
+    padding: 24px;
 }
