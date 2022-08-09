@@ -37,7 +37,7 @@
     display:flex;
     flex-direction:column;
     align-items: space-between;
-    padding: 24px 56px;
+    padding: 24px 56px 56px;
 }
 
 .container1eft {
@@ -92,6 +92,8 @@
     justify-content: center;
     padding: 24px;
     gap:30px;
+    flex-wrap:wrap;
+    
 }
 
 .header2 {
@@ -104,14 +106,14 @@
 }
 
 .infobox {
+    display:flex;
+    min-height:200px;
     border-radius: 8px;
     border: solid rgb(62, 112, 250);
-    max-width:100px;
-    height:100px;
 }
 .info {
     display:flex;
-    max-width:100px;
+    max-width:200px;
     font-size:14px;
     text-align:center;
     
@@ -131,7 +133,9 @@
 }
 
 .box4 {
+    display:flex;
     padding: 50px 124px;
+    justify-content:center;
     
 }
 
@@ -143,6 +147,7 @@
     border-radius:9px;
     justify-content:center;
     gap:50px;
+    max-width:800px;
 }
 .modalheader {
     font-size: 24px;
